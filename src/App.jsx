@@ -9,7 +9,7 @@ function App() {
   const [prix, setPrix] = useState(0);
   const [nom, setNom] = useState('');
   const [categorie, setCategorie] = useState('')
-  const [filtre, setFiltre] = useState('');
+  const [filtre, setFiltre] = useState('tous');
   const [filtrePrix, setFiltrePrix] = useState('croissant');
 
 

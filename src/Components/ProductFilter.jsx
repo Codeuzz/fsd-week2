@@ -1,7 +1,7 @@
 function ProductFilter({filtre, handleFilterChange, handleFilterPrixChange, filtrePrix}) {
     return (
-        <div>
-            <label htmlFor="filter">Filtrer des produits :  </label>
+        <div id="product-filter-div">
+            <label htmlFor="filter">Filtrer Les produits :  </label>
             <select value={filtre} id="filter" onChange={handleFilterChange}>
                 <option value="">Catégorie de produit</option>
                 <option value="tous">Tous</option>
