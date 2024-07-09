@@ -1,19 +1,14 @@
 import { useState } from 'react'
 import './App.css'
-import Form from './Components/Form'
-import Display from './Components/Display'
+import AddProduct from "./Components/AddProduct"
 
 function App() {
-  const [users, setUsers] = useState([]);
-
-  const handleSave = (updatedUsers) => {
-    setUsers(updatedUsers);
-  };
-
+  const [products, setProducts] = useState([]);
   return (
     <>
-      <Form onSave={handleSave} />
-      <Display users={users} onUpdateUser={handleSave} />
+      <h1>Hi</h1>
+      <AddProduct />
+
     </>
   )
 }
